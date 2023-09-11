@@ -305,6 +305,29 @@
                     </ul>
                 </li>
             </ul>
+
+  <!-- David : Ajout de raccourcis pour : ajouter et nettoyer les fichiers téléchargés -->
+  <ul class="nav navbar-nav">
+    <li class="dropdown" dropdown>
+      <li>
+        <a href="#" ng-click="addUris()">
+          <span class="fa fa-fw fa-link">&nbsp;</span> {{ 'By URIs' | translate }}
+        </a>
+      </li>
+    </li>
+  </ul>
+  <ul class="nav navbar-nav">
+    <li class="dropdown" dropdown>
+      <li>
+        <a
+          href="#"
+          ng-click="purgeDownloadResult()"><span class="fa fa-fw fa-times-circle">&nbsp;</span> {{ 'Purge Completed' | translate }}</a>
+      </li>
+    </li>
+  </ul>
+
+
+		
         </div>
         <!-- }}} -->
     </div>
