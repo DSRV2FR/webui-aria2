@@ -243,7 +243,8 @@ export default angular
     },
 
     dir: {
-      val: "",
+      val: "/serie",
+      options: ["/series", "/films","/filmshd","/films3d","/jeux","/saga"],
       desc: "The directory to store the downloaded file."
     },
 
